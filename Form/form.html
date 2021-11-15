@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="kr">
     <head>
-        <title>Bootstrap 5 Example</title>
+        <title>formhtml
+        </title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link
@@ -11,46 +12,68 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        <div class="container-fluid">
-            <form>
-                아이디:
-                <input type="text" maxlength="10" name="id"><br/>
-                비밀번호:
-                <input type="password" maxlength="10" name="pw1"><br/>
-                비밀번호 확인:
-                <input type="password" maxlength="10" name="pw2"><br/>
+        <form>
+            <div class="container-fluid">
 
-                이름:
-                <input type="text" maxlength="10" name="name"><br/>
-                전화번호:
-                <select>
-                    <option>010</option>
-                    <option>011</option>
-                    <option>017</option>
-                    <option>02</option>
-                    <option>031</option>
-                </select>
-                <input type="number" maxlength="4">
+                <tr>
+                    <td>
+                        아이디:
+                        <input type="text" maxlength="10" name="id">
+                    </td><br/>
+                    <td>
+                        비밀번호:
+                        <input type="password" maxlength="10" name="pw1">
+                    </td><br/>
+                    <td>
+                        비밀번호 확인:
+                        <input type="password" maxlength="10" name="pw2">
+                    </td><br/>
 
-                <input type="number" maxlength="4"><br/>
-                이메일:
-                <input type="text" name="email1">
-                @
-                <select>
-                    <option>naver.com</option>
-                    <option>gmail.com</option>
-                    <option>hanmail.net</option>
-                </select><br/>
-                성별:
-                <input type="radio" name="sex" value="F">
-                여성
-                <input type="radio" name="sex" value="M">
-                남성
-                <input type="radio" name="sex" value="N">
-                중성<br/>
-                <input type="submit" value="회원가입">
+                    <td>
+                        이름:
+                        <input type="text" maxlength="10" name="name">
+                    </td><br/>
+                    <td>
+                        전화번호:
+                        <select>
+                            <option>010</option>
+                            <option>011</option>
+                            <option>017</option>
+                            <option>02</option>
+                            <option>031</option>
+                        </select>
+                        <input type="number" maxlength="4">
 
-            </form>
-        </div>
+                        <input type="number" maxlength="4">
+                    </td><br/>
+                    <td>
+                        이메일:
+                        <input type="text" name="email1">
+                        @
+                        <select>
+                            <option>naver.com</option>
+                            <option>gmail.com</option>
+                            <option>hanmail.net</option>
+                        </select>
+                    </td><br/>
+                    <td>
+                        성별:
+                        <input type="radio" name="sex" value="F">
+                    </td>
+                    <td>
+                        여성
+                        <input type="radio" name="sex" value="M">
+                    </td>
+                    <td>
+                        남성
+                        <input type="radio" name="sex" value="N">
+                    </td>
+                    <td>
+                        중성<br/>
+                        <input type="submit" value="회원가입">
+                    </td>
+                </tr>
+            </div>
+        </form>
     </body>
 </html>
